@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  /* Container styles for all items */
+  .left,
+  .center,
+  .right,
+  .extreme-right {
+    height: 400px; /* Increase the height of the container */
+    width: 350px;
+    background: linear-gradient(to bottom, #f9f7f4,  #cbfc83,#92f300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Inner container styles for all items */
+  .left-inner,
+  .extreme-right-inner {
+    height: 80%;
+    width: 85%;
+    background-color: rgb(249, 247, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  /* Icon styles for all items */
+  .icon {
+    width: 100%;
+    height: max-content;
+  }
+  
+  .icon svg {
+    font-size: 80px; /* Further increase icon size */
+    padding: 15px;
+    border: 2px solid greenyellow;
+  }
+  
+  /* Headline styles for all items */
+  .headline {
+    text-transform: capitalize;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center; /* Center align the headlines */
+    color: #3498db; /* Change headline color */
+  }
+  
+  /* Description styles for all items */
+  .desc {
+    font-weight: 400;
+    font-size: 20px;
+    color: #555;
+    text-align: center; /* Center align the description */
+    flex-grow: 1; /* Make the description use all available space */
+  }
+  
+  /* Link styles */
+  .container a {
+    text-decoration: none; /* Remove underlines from links */
+    color: inherit; /* Inherit color from parent */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 700px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  
+  .header h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 36px;
+    color: #020f17; /* Header color */
+  }
+  

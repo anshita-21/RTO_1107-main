@@ -1,0 +1,82 @@
+/* CarPlateChecker.css */
+
+.car-plate-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #cbfc83, #92f300);
+  margin: 200px auto;
+  width: 600px;
+  height: 400px;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 200px;
+  font-size: 36px;
+  color: #1a1a1a;
+}
+
+.date-info {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: #2e43cc;
+}
+
+.input {
+  width: 300px;
+  margin: 20px 20px;
+  padding: 15px;
+  font-size: 18px;
+  border: 2px solid #27ae60;
+  border-radius: 8px;
+  outline: none;
+}
+
+.button {
+  /* margin-top: 60px; */
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #27ae60;
+}
+
+.result {
+  font-size: 22px;
+  margin-top: 30px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  color: #e74c3c;
+}
+
+.result.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.link {
+  color: #3498db;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.link:hover {
+  color: #2980b9;
+}

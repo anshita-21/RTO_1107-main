@@ -1,0 +1,46 @@
+/* Policies.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .policies-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom right,#cbfc83, #92f300);
+    border: 2px solid #92f300;
+    border-radius: 10px;
+  }
+  
+  .policy-title {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .policy-details {
+    margin-top: 0;
+    line-height: 1.5;
+  }
+  
+  .go-back-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .go-back-button:hover {
+    background-color: #0056b3;
+  }
+  

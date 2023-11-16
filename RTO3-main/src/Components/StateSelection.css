@@ -1,0 +1,87 @@
+/* StateSelection.css */
+
+.state-selection-container {
+  padding: 30px;
+  border: 2px solid #007bff;
+  border-radius: 15px;
+  margin: 300px auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  height: 250px;
+  background: linear-gradient(135deg,#cbfc83, #92f300);
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.header p {
+  font-size: 16px;
+  color: #555;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #007bff;
+  border-radius: 8px;
+  outline: none;
+}
+
+datalist {
+  margin-top: 10px;
+}
+
+button {
+  padding: 15px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ebeff4;
+}
+
+.rto-code {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #28a745;
+}
+
+.go-back-link {
+  margin-top: 30px;
+}
+
+.go-back-link a {
+  color: #eef1f5;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+.go-back-link a:hover {
+  color: #f6fafe;
+}
