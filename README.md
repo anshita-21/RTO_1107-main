@@ -19,7 +19,3 @@ This project is a Regional Transport Office (RTO) Management System designed to 
 - Backend: Node.js, Express.js
 - Database: MongoDB
 - Authentication: Firbase Google Auth
-
-## RTO
-
-![RTO Login](C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2023-11-16 182909.png)
